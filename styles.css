@@ -15,6 +15,10 @@ hr {
     margin: 2rem 0rem;
 }
 
+.project-links {
+    padding: 5px 0px;
+}
+
 /* container */
 .container {
     padding: 0rem 1rem;
@@ -45,6 +49,10 @@ hr {
 
 /* lists */
 
+.list-project{
+    padding-inline-start: 0px;
+}
+
 .list-non-bullet {
     list-style: none;
 }
@@ -66,12 +74,12 @@ hr {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .navigation .link {
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .navigation .nav-pills {

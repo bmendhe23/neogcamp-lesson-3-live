@@ -26,7 +26,7 @@ hr {
 
 .container-center {
     max-width: 600px;
-    margin: auto;
+    margin: 1rem auto;
 }
 
 /* links */
@@ -125,6 +125,7 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+    border-radius: 5px;
 }
 
 /* footer */

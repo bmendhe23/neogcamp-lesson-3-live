@@ -4,6 +4,7 @@
     --primary-color: #3B82F6;
     --color-gray: #6B7280;
     --off-white: #E5E7EB;
+    --light-gray: #E5E7EB;
 }
 
 body {
@@ -11,8 +12,19 @@ body {
     margin: 0px;
 }
 
+p{
+    text-align: justify;
+}
+
 hr {
     margin: 2rem 0rem;
+}
+
+.quote {
+    text-align: center;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .project-links {
@@ -107,6 +119,13 @@ hr {
     margin: auto;
 }
 
+.head .head-blog-img {
+    max-width: 550px;
+    display: block;
+    margin: auto;
+    padding-bottom: 0px;
+}
+
 .head .head-heading {
     text-align: center;
     padding-top: 1rem;
@@ -169,3 +188,28 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
+.blog-subscribe {
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    border: 2px solid var(--primary-color);
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+
+button {
+    position: absolute;
+    color:white;
+    background-color: var(--primary-color);
+    padding: 8px;
+    border: 2px solid var(--primary-color);
+    border-left: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+

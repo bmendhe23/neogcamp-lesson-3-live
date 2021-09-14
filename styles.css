@@ -191,7 +191,7 @@ hr {
 
 .blog-subscribe {
     text-align: center;
-    margin: auto;
+    margin-right: 80px;
 }
 
 input {
@@ -200,6 +200,7 @@ input {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     outline: none;
+    width: 280px;
 }
 
 button {
